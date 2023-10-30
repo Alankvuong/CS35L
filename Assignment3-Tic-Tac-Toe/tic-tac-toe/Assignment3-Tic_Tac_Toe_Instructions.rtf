@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2707
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red35\green92\blue79;\red25\green140\blue190;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c16863\c43137\c38431\c20000;\cssrgb\c7843\c61961\c79216;
+}
+\margl1440\margr1440\vieww28800\viewh16380\viewkind1
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 Assignment 3 - Tic-Tac-Toe Build Steps\
+1) If you do not have Node.js installed, go to
+\fs34 \cb3 \expnd0\expndtw0\kerning0
+ https://nodejs.org/en
+\fs24 \cb1 \kerning1\expnd0\expndtw0  and install the LTS package for your operating system.\
+2) If you want to learn how to setup and create the react app manually, follow these instructions.\
+	1) In your local development environment, open up your IDE (ie Visual Studio Code) and create a folder for your project.\
+	2) Once your folder is open, open the terminal in your IDE and type in \'93npx create-react-app \{name-of-app\}\'94 (for us this will be tic-tac-toe). \'97> npx create-react-app tic-tac-toe\
+	3) Wait for the necessary packages to be installed.\
+	4) Once everything is done being installed, delete everything in the folder, but leave the following files:\
+		a) package.json / package-lock.json\
+		b) the /public directory\
+			i) index.html inside the directory\
+		c) /src directory\
+			i) App.css\
+			ii) App.js\
+			iii) index.js\
+			iiii) index.css\
+	5) From here, go to the site https://react.dev/learn/tutorial-tic-tac-toe and look at the CodeSandbox given in the tutorial. Copy and paste the code over from each file into your project.\
+	6) To check if the setup is successful, cd into your project directory (cd tic-tac-toe) and run the command \'93npm start\'94\
+	7) If successful, then congrats! You have successfully set up your first react project.\
+\
+3) However, if you want to get a copy of the existing tutorial, then go to https://react.dev/learn/tutorial-tic-tac-toe and go to the \'93Setup for the tutorial\'94 section, and press \'93fork\'94 on the upper right hand corner of the shown code. This will take you to the codesandbox site, where you can fork the shown project code by logging in with your GitHub. \
+	a) Follow the directions on how to fork accordingly. If successful, you should have the same project they are showing in your local computer.\
+4) Look at the tutorial and at the section called \'93Building the Board\'94. Here you will learn how to build the rest of the board in a 3 x 3 square.\
+	a) When attempting to copy and paste this code: \
+		``` \
+			export default function Square() \{\
+ 				 return <button className="square">X</button><button className="square">X</button>;\
+			\}\
+\
+}
